@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/try1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="Women Safety App"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="SOS"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backgrond_sos"
+        />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="REGISTER Numbers"
+        android:padding="10dp"
+
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/self_defence"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="SElf DEFENCE"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/proile"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text=" profile"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/htu"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="How to use"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="9dp"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true" />
+
+
+
+
+</LinearLayout>
